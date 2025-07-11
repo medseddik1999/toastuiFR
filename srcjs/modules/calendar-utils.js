@@ -1,8 +1,7 @@
-import dayjs from "dayjs";
-import 'dayjs/locale/fr';
+import dayjs ;
+require('dayjs/locale/fr');
 
-dayjs.locale('fr'); // Définit la langue en français
-
+dayjs.locale('fr');
 
 export function formatDateNav(calendar, fmt = "YYYY-MM-DD", sep = " - ") {
   var viewName = calendar.getViewName();
